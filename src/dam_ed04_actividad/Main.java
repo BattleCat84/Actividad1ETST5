@@ -5,9 +5,15 @@
 
 package dam_ed04_actividad;
 
+/**
+ * Esta clase principal compuesta por un constructor
+ * @author Migueli Ramos
+ */
 
 public class Main {
-
+/**
+ * @param args 
+ */
     public static void main(String[] args) {
         CCuenta cuenta1;
         double saldoActual;
@@ -21,6 +27,13 @@ public class Main {
     }
     
     // Este es sl segundo commit 
+    
+    /**
+     * 
+     * @param cuenta1
+     * @param cantidadIngreso
+     * @param cantidadRetira 
+     */
     
     private static void operativa_cuenta(CCuenta cuenta1, float cantidadIngreso, float cantidadRetira){
         

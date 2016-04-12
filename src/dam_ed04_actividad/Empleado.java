@@ -7,13 +7,21 @@ package dam_ed04_actividad;
 public class Empleado {
     
 //Este es el commit4
-    
+
+/**
+ * 
+ */
     private String nombre;
     private String apellidos;
     private String dni;
 
 //Este es el commit5
 
+    /**
+     * 
+     * @return 
+     */
+    
     public String getNombre() {
         return nombre;
     }
